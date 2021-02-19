@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/tundvgs/test/issues"
   },
-  "homepage": "https://github.com/tundvgs/test#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/tundvgs/test#readme"
 }

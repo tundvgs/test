@@ -1,8 +1,10 @@
 const express = require('express')
 const app = express()
 
-app.get('/', function (req, res) {
-    res.send('Hello World')
+app.get('/test', function (req, res) {
+    res.send({
+        data: 1111
+    })
 })
 
-app.listen(3000,  () => console.log('app running port 3000'))
+app.listen(5000,  () => console.log('app running port 5000'))
